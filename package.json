@@ -1,0 +1,12 @@
+{
+  "name": "commitlint-pre-commit-hook",
+  "version": "1.0.0",
+  "description": "pre-commit hook for commitlint",
+  "main": "index.js",
+  "bin": {
+    "commitlint": "./node_modules/@commitlint/cli/cli.js"
+  },
+  "dependencies": {
+    "@commitlint/cli": "13.1.0"
+  }
+}
